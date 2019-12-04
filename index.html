@@ -36,6 +36,17 @@
 			color: inherit;
 		}
 
+		/* Fix blue links in Gmail */
+		u + #body a {
+			color: inherit;
+			text-decoration: none;
+			font-size: inherit;
+			font-family: inherit;
+			font-weight: inherit;
+			line-height: inherit;
+		}
+		/* End - Fix blue links in Gmail */
+
 		/* Hover styles for buttons */
 		.button-td,
 		.button-a {
@@ -86,7 +97,7 @@
 		}
 	</style>
 </head>
-<body width="100%" style="margin: 0; padding: 0 !important; mso-line-height-rule: exactly; background-color: #ce8f6b;">
+<body id="body" width="100%" style="margin: 0; padding: 0 !important; mso-line-height-rule: exactly; background-color: #ce8f6b;">
 	<center style="width: 100%; background-color: #ce8f6b;">
 		<!-- Preview Text : BEGIN -->
 		<!-- This text displays in email inbox preview only -->
